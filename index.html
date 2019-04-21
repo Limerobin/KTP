@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>KTP - Knowledge Transfer Partnership</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
+    <script src="leaflet/leaflet.js"></script>
+    <script src="leaflet/leafletembed.js"></script>
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div id="logotype">
+                <img src="images/hda_logga_neg.png" alt="Högskolan Dalarnas Logotyp">
+            </div>
+            <div id="navbar">
+                <a class="nav">
+                    Utbildning
+                </a>
+                <a class="nav">
+                    Forskning
+                </a>
+                <a class="nav">
+                    Samverkan
+                </a>
+                <a class="nav">
+                    Bibliotek
+                </a>
+                <a class="nav">
+                    Om oss
+                </a>
+            </div>
+        </div>
+    </header>
+    <div id="wrapper">
+        <h1>KTP - Knowledge Transfer Partnerships</h1>
+        <div id="map">
+
+        </div>
+        <div id="ingress">
+            KTP är en modell för att utveckla hållbar kunskapsväxling
+            mellan akademi och näringsliv. <br>
+            Högskolan Dalarna och Högskolan i Gävle arbetar sedan 2015 framgångsrikt med modellen för att stärka såväl akademin som befintligt näringsliv i regionerna.
+        </div>
+        <div id="sideNav">
+            <h3>SIDANS INNEHÅLL</h3>
+            <ul id="navList">
+                <li class="navListItem">Vad är KTP?</li>
+                <li class="navListItem">Möjligheter just nu</li>
+                <li class="navListItem">Spännande kunskapsväxling</li>
+                <li class="navListItem">Kontakt</li>
+            </ul>
+        </div>
+        <div id="mainBody">
+            <div class="text-block">
+                <h2>Vad är KTP?</h2>
+                <h3>Samverkan mellan näringsliv och akademi</h3>
+                <p><img id="ktpImg" class="img-max-100" style="display: block; max-width: 50%; height: auto; margin-left: 15px; float: right;" src="images/ktp-modell-2019.png" alt="KTP-modell, förhållandet mellan nyutexaminerad akademiker, förtag, akademisk coach och affärscoach" width="1018" height="975">
+                </p>
+                <p>
+                    KTP som samverkansmodell innebär att en nyutexaminserad akademiker på heltid genomför ett strategiskt kvalificerat utvecklingsprojekt hos ett företag i regionen i upp till två år. Det kan handla om produktutveckling, marknadsutveckling, processutveckling och energieffektivisering.
+                </p>
+                <p>
+                    Under hela tiden medverkar Högskolan Dalarna eller Högskolan i Gävle med en akademisk coach, oftast en forskare samt en coach från näringslivet. Högskolorna kan bidra med labbresurser.
+                </p>
+                <p>
+                    KTP-projektledaren erhåller marknadsmässig lön och företaget betalar hälften av personalkostnaderna. Resterande del finansieras med projektmedel,
+                </p>
+                <p>
+                    Från rekrytering och genom hela projektet fram till avslut säkerställs respektive projekt av en processledare från någon av högskolorna.
+                </p>
+                <p>
+                    <img src="images/hig_logga.png" alt="Högskolan i Gävle logotyp" width="147" height="130">
+                    <img src="images/hda_logga2.png" alt="Högskolan Dalarna logotyp" width="121" height="130" style="margin-left: 15px;">
+                </p>
+            </div>
+            <div class="panel-block">
+                <h2>Möjligheter just nu</h2>
+                <div class="panel">
+                    <div class="panel-head">
+                        <h3>KTP Energi</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>KTP Energi skall utveckla hållbar kunskapsväxling mellan akademi och näringsliv för att möta behoven av en övergång till koldioxidsnål ekonomi genom konkreta insatser inom energieffektivisering.</p>
+                        <p>Projektet möjliggör 8-10st 1-åriga delprojekt på företag under 2019-2021.</p>
+                        <p>Välkommen att kontakta oss!</p>
+                    </div>
+                </div>
+                <div class="panel">
+                        <div class="panel-head">
+                            <h3>KTP Science</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p>KTP Science möjliggör företagsbaserad forskning inom till exempel:</p>
+                            <ul>
+                                <li>Utveckling och testning av produkter och tjänster</li>
+                                <li>Verifiering av produkter och tjänster</li>
+                                <li>Nya sätt att producera produkter</li>
+                                <li>Användningsområden för restmaterial.</li>
+                            </ul>
+                            <p>Välkommen att kontakta oss!</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script>initmap()</script>
+</body>
+</html>

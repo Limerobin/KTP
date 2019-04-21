@@ -1,0 +1,22 @@
+{
+    "type":"FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dalarna Energi",
+                "projectLeader": "Simon Alzén",
+                "tutor": "Desiré Kronert",
+                "description": "",
+                "urllink": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.40941959,
+                    60.48736799
+                ]
+            }
+        }
+    ]
+}

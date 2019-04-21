@@ -1,0 +1,33 @@
+body {
+ /*   display: grid;
+    grid-template-columns: auto auto auto;  */
+
+    max-width: 60%;
+    min-width: 1120px;
+    margin: 0 auto;
+    position:relative;
+}
+
+#projektRubrik {
+    font-size: 1.3em;
+}
+
+#projektInfo {
+    max-width: 40%;
+    max-height: 25%;
+}
+
+#projektVerksamhet {
+    max-width: 40%;
+    max-height: 25%;
+}
+
+main {
+    position: fixed;
+}
+
+aside {
+    float: right;
+    margin-top: 10%;
+    margin-right: 20%;
+}
